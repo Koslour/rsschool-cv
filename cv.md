@@ -8,7 +8,7 @@
 ##  About me:
 I am 25 years old. I work as an engineer in a field slightly related to programming. But it's very secret, and I can't tell you about it. I have not worked in the IT field before, but I have a little idea about this profession. I'm like a samurai, I don't have a goal, there's only a way. 
 
-![mountains](https://yt3.googleusercontent.com/xUgK9NXYrah4GtMdSC8tua8NRerTwKfmuwhjRBGWaXmHq8Z8mZB3GrJ3mDb9MoQSGlCSeslILQ=s900-c-k-c0x00ffffff-no-rj "Samurai")
+![mountains](https://a.d-cd.net/gtLGk_FxVOT1w-AI12Y4naEe7as-480.jpg "Samurai")
 
 ##  Skills:
 + C;
