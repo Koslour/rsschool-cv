@@ -8,13 +8,12 @@
 ##  About me:
 I am 25 years old. I work as an engineer in a field slightly related to programming. But it's very secret, and I can't tell you about it. I have not worked in the IT field before, but I have a little idea about this profession. I'm like a samurai, I don't have a goal, there's only a way. 
 
-![mountains](c:\Users\acera\OneDrive\Рабочий стол\Samurai (2).jpg "Samurai")
+![mountains](https://yt3.googleusercontent.com/xUgK9NXYrah4GtMdSC8tua8NRerTwKfmuwhjRBGWaXmHq8Z8mZB3GrJ3mDb9MoQSGlCSeslILQ=s900-c-k-c0x00ffffff-no-rj "Samurai")
 
 ##  Skills:
 + C;
 + C#.
 ##  Code example:
-
 ```
 int MyPow(int val,int pow)
 {
@@ -28,7 +27,6 @@ int main()
     return 0;
 {
 ```
-
 ##  Education:
 **University:** Tula State University, direction "Software Engineering".
 ##  English: 
