@@ -1,1 +1,0 @@
-https://Koslour.github.io/rsschool-cv/
