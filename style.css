@@ -27,16 +27,13 @@ table.border th {
 * {
     box-sizing: border-box;                     /*Изменение алгоритма расчета размерова элементов*/
 }
-.main_t{
-    border: 1px solid red;
+.main_t{ 
+    border: 6px solid #84bbe3;
 }
 body{                                           /*Свойства body */
     min-height: 100vh;                          /*Минимальная высота body не может быть меньше высоты страницы*/
     margin: 0;                                  /*Вертикальная прокрутка исчезает*/
     padding: 0;
-    /* display: flex; */
-    /* flex-direction: column;                     Переопределили направление главной оси */
-    /* justify-content: space-between;             Все элементы размещаются на максимальном расстоянии друг от друга, крайние прижаты к границам родителя */
 }
 .footer_t{
     display: flex;
@@ -61,3 +58,67 @@ html{                                       /*Плавная прокрутка*
     padding: 0 20px;
     line-height: 50px;
   }
+.nav-link{                                  /*Чтобы свойства менялись плавно*/
+    transition: 0.3s;
+}
+.nav-item a:hover{                          /*Изменение цвета ссылки*/
+    color:#ff0000
+}
+.nav-item a{                                /*Интерактивность подчеркивание*/
+    color: #280dc0;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.main-conrainer{
+    display: flex;                          /*Свойство у контейнера размещает секции по горизонтали*/
+    flex-wrap: wrap;                        /*Cекции, которые не помещаются по ширине контейнера переносятся на новую строку*/
+}
+.section{
+    width: 50%;                             /*Каждая секция занимает ровно половину ширины контейнера*/
+}
+@media (max-width: 768px){                  /*При уменьшении ширины экрана до 768px, секция будет занимать всю ширину*/
+    .section{
+        width: 100%;
+    }
+}
+body{                                       /*Стилизации шрифта страницы*/
+    font-family: "Rubik", sans-serif;
+    font-size:20px;
+    font-weight: 700;       
+    line-height: 1.4;                       /*Рассторяние между строчками*/
+    color: #232e4d;
+}
+.section-title{                             /*Cтилизация заголовков:*/
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    color: #998b82;
+}
+.link{
+    text-decoration: none;
+    color: #163bb4;
+    transition: color 0.5s;
+}
+.link:hower{
+    color: #2610f1;
+}
+body{
+    background-image: url("./assets/img/rss.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    position: relative;
+    display: inline-block;
+}
+h1::before{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 5px;
+    background-color: #8bbee1;
+}
