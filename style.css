@@ -46,3 +46,18 @@ body{                                           /*Свойства body */
     max-width: 1440px;
     margin: 0 auto;
 }
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+html{                                       /*Плавная прокрутка*/
+    scroll-behavior: smooth;
+}
+.nav-list {                                 /*Убираем стандартные маркеры*/
+    list-style: none;
+}
+.nav-link {                                 /*Добавляем отступы между элементами списка*/
+    padding: 0 20px;
+    line-height: 50px;
+  }
