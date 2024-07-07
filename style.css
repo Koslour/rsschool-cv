@@ -1,5 +1,15 @@
+@font-face{
+    font-family: Rubik;
+    src: url("assets/fonts/Rubik-VariableFont_wght.ttf");
+    font-weight: 100;
+}
+@font-face{
+    font-family: Rubik;
+    src: url("assets/fonts/Rubik-Italic-VariableFont_wght.ttf");
+    font-weight: 300;
+}
 html, body {
-    font-family: Arial, serif;
+    font-family: Rubik, serif;
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -13,4 +23,26 @@ table.border td, table.border th {
 }
 table.border th {
     background: #e0e0e0;
+}
+* {
+    box-sizing: border-box;                     /*Изменение алгоритма расчета размерова элементов*/
+}
+.main_t{
+    border: 1px solid red;
+}
+body{                                           /*Свойства body */
+    min-height: 100vh;                          /*Минимальная высота body не может быть меньше высоты страницы*/
+    margin: 0;                                  /*Вертикальная прокрутка исчезает*/
+    padding: 0;
+    /* display: flex; */
+    /* flex-direction: column;                     Переопределили направление главной оси */
+    /* justify-content: space-between;             Все элементы размещаются на максимальном расстоянии друг от друга, крайние прижаты к границам родителя */
+}
+.footer_t{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
 }
