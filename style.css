@@ -104,7 +104,7 @@ body{                                       /*Стилизации шрифта 
     color: #2610f1;
 }
 body{
-    background-image: url("./assets/img/rss.jpg");
+    background-image: url("assets/img/rss.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }

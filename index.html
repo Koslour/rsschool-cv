@@ -6,7 +6,7 @@
    
     <title>cv</title>
     <link rel="stylesheet" href="style.css" />         <!-- Подключение стилей. -->
-    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon" />        <!--  Фавикон - значок сайта 16x16 -->
+    <link rel="resume icon" href="assets/favicon.ico" type="image/x-icon" />        <!--  Фавикон - значок сайта 16x16 -->
 </head>
 <body>
     <!-- Верх -->
@@ -37,7 +37,7 @@
                         <li>Location: Russia, Tula</li>
                         <li>Phone: <a href="tel:+79539654359">+79539654359</a></li>
                         <li>Email address: <a href="mailto:acer.aspire.2017@yandex.ru">acer.aspire.2017@yandex.ru</a></li>
-                        <li>telegramm: <a href="http://t.me/koslour_r">Stanislav Kazakov</li>
+                        <li>telegramm: <a href="http://t.me/koslour_r">Stanislav Kazakov</a></li>
                         <li>GitHub: <a href=https://github.com/Koslour>https://github.com/Koslour</a></li>
                     </ul>
             </section> 
@@ -56,9 +56,17 @@
             </section>
             <section class="section" id="code">
                 <h2 id="code">Code</h2>
-                    <p>
-
-                    </p>             
+                <pre><code>int MyPow(int val,int pow)
+                    {
+                        if(pow<1)
+                            return 1;
+                        return val*MyPow(val,pow-1);
+                    }
+                    int main()
+                    
+                        printf(“%d\n”,MyPow(12,2));
+                        return 0;
+                    </code></pre>        
             </section>
             <section class="section" id="education">
                 <h2 id="education">Education</h2>
@@ -74,12 +82,12 @@
     </main>                                                                 
     <!-- Низ -->
     <div class="container">
-    <footer class="footer_t">
+        <footer class="footer_t">
             <h2>© 2024</h2>
             <p>Станислав Казаков</p>
             <img src="assets/img/logo-rsschool.png" width="100" height="70" alt="logo" />                                                 
             <a href=https://rs.school/courses/javascript-ru>https://rs.school/courses/javascript-ru</a>
-    </footer>
-</div>
+        </footer>
+    </div>
 </body>
 </html>
