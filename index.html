@@ -56,17 +56,16 @@
             </section>
             <section class="section" id="code">
                 <h2 id="code">Code</h2>
-                <pre><code>int MyPow(int val,int pow)
-                    {
-                        if(pow<1)
-                            return 1;
-                        return val*MyPow(val,pow-1);
-                    }
-                    int main()
-                    
-                        printf(“%d\n”,MyPow(12,2));
-                        return 0;
-                    </code></pre>        
+                <pre>
+                int MyPow(int val,int pow){
+                    if(pow<1)
+                        return 1;
+                    return(val*MyPow(val,pow-1));
+                }
+                int main(){
+                    printf("%d\n",MyPow(12,2));
+                    return 0;
+                }</pre>                  
             </section>
             <section class="section" id="education">
                 <h2 id="education">Education</h2>
