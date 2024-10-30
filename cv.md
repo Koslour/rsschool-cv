@@ -9,9 +9,9 @@
 ##  About me:
 I am 25 years old. I work as an engineer in a field slightly related to programming. But it's very secret, and I can't tell you about it. I have not worked in the IT field before, but I have a little idea about this profession. I'm like a samurai, I don't have a goal, there's only a way. 
 
-<div style="width: 100px; height: 50px">
+<!-- <div style="width: 100px; height: 50px"> -->
 ![Samurai](assets/cat.jpg "Samurai")
-</div>
+<!-- </div> -->
 
 ##  Skills:
 + C;
