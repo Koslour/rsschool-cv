@@ -10,7 +10,7 @@
 + **GitHub:** [Koslour](https://github.com/Koslour)  
 ##  About me:
 I am 25 years old. I work as an engineer in a field slightly related to programming. But it's very secret, and I can't tell you about it. I have not worked in the IT field before, but I have a little idea about this profession. I'm like a samurai, I don't have a goal, there's only a way. 
-<!-- ![Samurai](assets/cat.jpg "Samurai") -->
+
 <img src="https://a.d-cd.net/gtLGk_FxVOT1w-AI12Y4naEe7as-480.jpg" width="150" height="200">
 
 ##  Skills:
