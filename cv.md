@@ -1,6 +1,7 @@
 #   Stanislav Kazakov
 ##  Contacts:
-![myPhoto](/assets/myPhoto.jpg "I")  
++ ![myPhoto](/assets/myPhoto.jpg "I")
+
 <!-- <img src="/assets/myPhoto.jpg" width="150" height="150"> -->
 
 + **Location:** Russia, Tula
