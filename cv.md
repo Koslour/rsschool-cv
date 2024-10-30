@@ -1,4 +1,4 @@
-#   Stanislav Kazakov.
+#   Stanislav Kazakov
 ##  Contacts:
 ![myPhoto](/assets/myPhoto.jpg "I")  
 + **Location:** Russia, Tula
@@ -16,17 +16,15 @@ I am 25 years old. I work as an engineer in a field slightly related to programm
 + C#.
 ##  Code example:
 ```
-int MyPow(int val,int pow)
-{
+int MyPow(int val,int pow){
     if(pow<1)
         return 1;
     return val*MyPow(val,pow-1);
 }
-int main()
-{
+int main(){
     printf(“%d\n”,MyPow(12,2));
     return 0;
-{
+}
 ```
 ##  Education:
 **University:** Tula State University, direction "Software Engineering".
