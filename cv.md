@@ -1,6 +1,6 @@
 #   Stanislav Kazakov
 ##  Contacts:
-+ ![Photo](/assets/myPhoto.jpg "I")
+![Photo](//assets/myPhoto.png)
 <!-- <img src="/assets/myPhoto.jpg" width="150" height="150"> -->
 + **Location:** Russia, Tula
 + **Phone:** +79539654359 
