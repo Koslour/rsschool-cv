@@ -1,7 +1,8 @@
 #   Stanislav Kazakov
 ##  Contacts:
-![Photo](./assets/myPhoto.png)
-<!-- <img src="/assets/myPhoto.jpg" width="150" height="150"> -->
+<!-- ![Photo](./assets/myPhoto.png) -->
+<img src="https://github.com/Koslour/rsschool-cv/blob/gh-pages/assets/myPhoto.png" width="150" height="150">
+
 + **Location:** Russia, Tula
 + **Phone:** +79539654359 
 + **Email address:** acer.aspire.2017@yandex.ru
