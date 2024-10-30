@@ -19,7 +19,7 @@ int MyPow(int val,int pow)
 {
     if(pow<1)
         return 1;
-    return (val*MyPow(val,pow-1);
+    return val*MyPow(val,pow-1);
 }
 int main()
 {
