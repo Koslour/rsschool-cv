@@ -2,6 +2,7 @@
 ##  Contacts:
 <!-- ![myPhoto](/assets/myPhoto.jpg "I")   -->
 <img src="/assets/myPhoto.jpg" width="150" height="150">
+
 + **Location:** Russia, Tula
 + **Phone:** +79539654359 
 + **Email address:** acer.aspire.2017@yandex.ru
