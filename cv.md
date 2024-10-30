@@ -1,7 +1,7 @@
 #   Stanislav Kazakov
 ##  Contacts:
-![Photo](./assets/myPhoto.png)
-<!-- <img src="https://github.com/Koslour/rsschool-cv/blob/gh-pages/assets/myPhoto.png"> -->
+<!-- ![Photo](./assets/myPhoto.png) -->
+<img src="https://github.com/Koslour/rsschool-cv/blob/gh-pages/assets/myPhoto.png">
 
 + **Location:** Russia, Tula
 + **Phone:** +79539654359 
