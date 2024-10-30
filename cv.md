@@ -13,6 +13,7 @@ I am 25 years old. I work as an engineer in a field slightly related to programm
 
 <img src="https://a.d-cd.net/gtLGk_FxVOT1w-AI12Y4naEe7as-480.jpg" width="150" height="200">
 
+
 ##  Skills:
 + C;
 + C#.
