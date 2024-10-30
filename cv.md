@@ -1,6 +1,6 @@
 #   Stanislav Kazakov
 ##  Contacts:
-+ ![myPhoto](/assets/myPhoto.jpg "I")
++ ![Photo](/assets/myPhoto.jpg "I")
 
 <!-- <img src="/assets/myPhoto.jpg" width="150" height="150"> -->
 
