@@ -12,7 +12,7 @@ I am 25 years old. I work as an engineer in a field slightly related to programm
 <!-- <div style="width:100px; height:50px"> -->
 <!-- ![Samurai](assets/cat.jpg "Samurai") -->
 <!-- </div> -->
-<img src="https://a.d-cd.net/gtLGk_FxVOT1w-AI12Y4naEe7as-480.jpg" width="200" height="150">
+<img src="https://a.d-cd.net/gtLGk_FxVOT1w-AI12Y4naEe7as-480.jpg" width="150" height="200">
 
 ##  Skills:
 + C;
