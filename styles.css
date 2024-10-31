@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    background: #2c2929;
+}
+.container{
+    display: flex;
+    width: 720px;
+    height: 500px;
+    margin:auto;
+}
+img{
+    width: auto;
+}
