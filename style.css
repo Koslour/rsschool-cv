@@ -2,3 +2,12 @@
     background-color: #302828;
     color:#fff;
 }
+
+@font-face {
+    font-family: "MichromaRegular";
+    src: url("/assets/fonts/Michroma-Regular.ttf");
+}
+
+body{
+    font-family: "MichromaRegular";
+}
