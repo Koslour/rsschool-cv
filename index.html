@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Rsschool</h1>
+    </header>
+    <main>
+        <h2>Stanislav Kazakov</h2>
+        <img src="https://sun9-8.userapi.com/s/v1/ig2/mI6oTbBdy2pUiI7S99niZjZRvAjxywdSBQldaW3fuRZl9_wyXoYYywo65UnOPV0HnzdYsfPnqWbHrHA8galn8F6k.jpg?quality=95&as=32x47,48x70,72x105,108x157,160x233,240x349,360x523,480x698,540x785,640x930,720x1047,1080x1570,1280x1861,1440x2093,1761x2560&from=bu&cs=160x0 " alt="My photo">
+        <h2>My Contact Info:</h2>
+        <ul>
+            <li>Phone:
+                <a href="tel:89539654359">+8&nbsp;953&nbsp;965&nbsp;43&nbsp;59</a>
+            </li>
+            <li>E-mail:
+                <a href="mailto:acer.aspire.2017@yandex.ru">acer.aspire.2017@yandex.ru</a>
+            </li>
+            <li>GitHub:
+                <a href="https://github.com/Koslour">Koslour</a>
+            </li>
+            <li>Telegram:
+                <a href="https://web.telegram.org/a/#1166847605"> Stanislav Kazakov</a>
+            </li>
+        </ul>
+        <h2>About Me</h2>
+        <p>I am 26 years old, I work as an engineer. I want to try my hand at frontend development. I am sure that I will gain a lot of experience in this course. I like Web development.</p>
+        <h2>My strengths:</h2>
+        <ul>
+            <li>hardworking</li>
+            <li>eager to learn new things</li>
+            <li>persistent</li>
+        </ul>
+        <h2>Skills</h2>
+        <ul>
+            <li>C</li>
+            <li>C++ (Qt)</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git/GitHub</li>
+        </ul>
+        <h2>Code Examples</h2>
+    <pre>
+    int readADC(char channel) {
+    int Ain, AinLow;
+    ADMUX = ADMUX | (channel &amp; 0x0f);
+    ADCSRA |= (1 &lt;&lt; ADSC);
+    while((ADCSRA &amp; (1 	&lt;&lt; ADIF)) == 0);
+    _delay_us(10);
+    Ain = (int) ADC;
+    return(Ain);}
+    </pre>
+        <h2>Education</h2>
+        <ul>
+            <li>Tula State University (TulGU):
+                <ul>
+                    <li>Computer Science and Engineering.</li>
+                </ul>
+            </li>
+        </ul>
+        <h2>Languages</h2>
+        <ul>
+            <li>Russian - native speaker;</li>
+            <li>English - A1F.</li>
+        </ul>
+    </main>
+</body>
+</html>
