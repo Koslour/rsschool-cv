@@ -37,3 +37,9 @@ int readADC(char channel) {
     return(Ain);  
 }
 ```
+## Education
+* Tula State University (TulGU) 
+    + Computer Science and Engineering
+## Languages
+* Russian - native speaker.
+* English - A1
