@@ -1,7 +1,7 @@
 /* Общие */
 * {
     box-sizing: border-box;
-    background-color: #302828;
+    /* background-color: #302828; */
     margin: 0;
     padding: 0;
 }
@@ -32,11 +32,13 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    min-height: 50px;
 }
 
 /* Header */
 .header {
     border: 1px solid red;
+    background-color: rgb(44, 42, 40);
 }
 
 .nav-list {
@@ -44,6 +46,7 @@ body {
     justify-content: flex-end;
     align-items: center;
 
+    padding:20px 0;
     list-style: none;
     gap: 10px;
 }
@@ -51,7 +54,7 @@ body {
 .nav-link {
     text-decoration: none;
 
-    padding: 10px 20px;
+    padding: 0px 12px;
     line-height: 50px;
     color: #fff;
 
@@ -71,6 +74,7 @@ body {
 /* Main */
 .main {
     border: 1px solid red;
+    color: rgb(44, 42, 40)
 }
 
 .main-container {
@@ -84,12 +88,31 @@ section {
     padding: 20px;
 }
 
-h2{
+h2 {
     font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 5px;
     color: #459450;
+}
+
+.contacts-list {
+    list-style-type: none;
+}
+
+.contacts-item {
+    color: rgb(44, 42, 40);
+
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.contacts-item:hover {
+    background-size: 100% 2px;
 }
 
 @media (max-width: 768px) {
@@ -101,5 +124,39 @@ h2{
 /* Footer */
 .footer {
     border: 1px solid red;
+    background-color: rgb(44, 42, 40);
+    padding: 20px;
+}
 
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.github {
+    text-decoration: none;
+
+    padding: 10px 20px;
+    line-height: 50px;
+    color: #fff;
+
+    transition: color 0.3s;
+}
+
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url(./assets/img/rs-school-logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter:  invert(1) grayscale(50%); 
+}
+
+.github:hover {
+    color: rgb(184, 184, 197);
+    background-color: rgb(73, 70, 70);
+    border-radius: 0 20px;
 }
