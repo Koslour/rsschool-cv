@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,84 +8,112 @@
     <link rel="stylesheet" href="./style.css" />
     <link rel="icon" href="assets/favicon.ico" />
 </head>
+
 <body>
     <header class="header">
         <div class="container">
             <ul class="nav-list">
                 <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-item"><a href="#about-me" class="nav-link">About Me</a></li>
                 <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
                 <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-                <li class="nav-item"><a href="projects" class="nav-link">Projects</a></li>
-                <li class="nav-item"><a href="education" class="nav-link">Education</a></li>
-                <li class="nav-item"><a href="english" class="nav-link">English</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
             </ul>
             <div class="burger"></div>
         </div>
     </header>
     <main class="main">
-        <h1>Stanislav Kazakov</h1>
-        <img src="./assets/img/myPhoto.jpg" alt="My photo">
-        <h2>My Contact Info:</h2>
-        <ul>
-            <li>Phone:
-                <a href="tel:89539654359">+8&nbsp;953&nbsp;965&nbsp;43&nbsp;59</a>
-            </li>
-            <li>E-mail:
-                <a href="mailto:acer.aspire.2017@yandex.ru">acer.aspire.2017@yandex.ru</a>
-            </li>
-            <li>GitHub:
-                <a href="https://github.com/Koslour">Koslour</a>
-            </li>
-            <li>Telegram:
-                <a href="https://web.telegram.org/a/#1166847605"> Stanislav Kazakov</a>
-            </li>
-        </ul>
-        <h2>About Me</h2>
-        <p>I am 26 years old, I work as an engineer. I want to try my hand at frontend development. I am sure that I will gain a lot of experience in this course. I like Web development.</p>
-        <h2>My strengths:</h2>
-        <ul>
-            <li>hardworking</li>
-            <li>eager to learn new things</li>
-            <li>persistent</li>
-        </ul>
-        <h2>Skills</h2>
-        <ul>
-            <li>C</li>
-            <li>C++ (Qt)</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Git/GitHub</li>
-        </ul>
-        <h2>Code Examples</h2>
-    <pre>
-    int readADC(char channel) {
+        <div class="container">
+            <section class="profile" id="profile">
+                <h1>Stanislav Kazakov</h1>
+                <h3>Engineer</h3>
+                <img src="./assets/img/myPhoto.jpg" alt="My photo">
+            </section>
+
+            <section class="contacts" id="contacts">
+                <h2>My Contact Info:</h2>
+                <ul>
+                    <li>Phone:
+                        <a href="tel:89539654359">+8&nbsp;953&nbsp;965&nbsp;43&nbsp;59</a>
+                    </li>
+                    <li>E-mail:
+                        <a href="mailto:acer.aspire.2017@yandex.ru">acer.aspire.2017@yandex.ru</a>
+                    </li>
+                    <li>GitHub:
+                        <a href="https://github.com/Koslour">Koslour</a>
+                    </li>
+                    <li>Telegram:
+                        <a href="https://web.telegram.org/a/#1166847605"> Stanislav Kazakov</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="about-me" id="about-me">
+                <h2>About Me</h2>
+                <p>I am 26 years old, I work as an engineer. I want to try my hand at frontend development. I am sure
+                    that I
+                    will gain a lot of experience in this course. I like Web development.</p>
+                <h2>My strengths:</h2>
+                <ul>
+                    <li>hardworking</li>
+                    <li>eager to learn new things</li>
+                    <li>persistent</li>
+                </ul>
+            </section>
+
+            <section class="skills" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>C</li>
+                    <li>C++ (Qt)</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Git/GitHub</li>
+                </ul>
+            </section>
+
+            <section class="code" id="code">
+                <h2>Code Examples</h2>
+                <pre>
+int readADC(char channel) {
     int Ain, AinLow;
     ADMUX = ADMUX | (channel &amp; 0x0f);
     ADCSRA |= (1 &lt;&lt; ADSC);
     while((ADCSRA &amp; (1 	&lt;&lt; ADIF)) == 0);
     _delay_us(10);
     Ain = (int) ADC;
-    return(Ain);}
-    </pre>
-        <h2>Education</h2>
-        <ul>
-            <li>Tula State University (TulGU):
+    return(Ain);
+}
+                </pre>
+            </section>
+
+            <section class="education" id="education">
+                <h2>Education</h2>
                 <ul>
-                    <li>Computer Science and Engineering.</li>
+                    <li>Tula State University (TulGU):
+                        <ul>
+                            <li>Computer Science and Engineering.</li>
+                        </ul>
+                    </li>
                 </ul>
-            </li>
-        </ul>
-        <h2>Languages</h2>
-        <ul>
-            <li>Russian - native speaker;</li>
-            <li>English - A1F.</li>
-        </ul>
+            </section>
+
+            <section class="languages" id="languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li>Russian - native speaker;</li>
+                    <li>English - A1F.</li>
+                </ul>
+            </section>
     </main>
 
     <footer class="footer">
+        <div class="container">
 
+        </div>
     </footer>
 </body>
+
 </html>

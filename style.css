@@ -1,9 +1,14 @@
+/* Общие */
 * {
     box-sizing: border-box;
     background-color: #302828;
     color: #fff;
     margin: 0;
     padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 @font-face {
@@ -16,19 +21,56 @@ body {
     font-weight: 400;
     min-height: 100vh;
 
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Header */
 .header {
     border: 1px solid red;
 }
 
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    list-style: none;
+    gap: 10px;
+}
+
+.nav-link{
+    text-decoration: none;
+
+    padding: 10px 20px;
+    line-height: 50px;
+    font-size: 15px;
+    
+    transition: color 0.3s;
+}
+
+.nav-link:hover{
+    color:rgb(184, 184, 197);
+    background-color: rgb(73, 70, 70);
+    border-radius: 0 20px;
+}
+
+.burger {
+    display: none;
+}
+
+/* Main */
 .main {
     border: 1px solid red;
 }
 
+/* Footer */
 .footer {
     border: 1px solid red;
 }
