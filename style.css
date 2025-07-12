@@ -1,7 +1,6 @@
 /* Общие */
 * {
     box-sizing: border-box;
-    /* background-color: #302828; */
     margin: 0;
     padding: 0;
 }
@@ -46,7 +45,7 @@ body {
     justify-content: flex-end;
     align-items: center;
 
-    padding:20px 0;
+    padding: 20px 0;
     list-style: none;
     gap: 10px;
 }
@@ -152,7 +151,7 @@ h2 {
     background-image: url(./assets/img/rs-school-logo.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    filter:  invert(1) grayscale(50%); 
+    filter: invert(1) grayscale(50%);
 }
 
 .github:hover {
